@@ -1,0 +1,1151 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<title>Yousef Mahdi &#8213; About Me</title>
+<meta name="description" content="about me">
+<link rel="icon" type="image/png" href="images/favicon.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<style>
+
+@font-face {
+    font-family: 'Karla';
+    src: url('fonts/Karla-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url('fonts/Karla-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url('fonts/Karla-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    font-family: 'Karla', sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.half {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 50%;
+}
+
+.container {
+    margin: 3vw auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.section {
+    /* margin: 9vw 0px; */
+    margin: 2vw 0px;
+}
+
+.logo {
+    height: 6vw;
+    width: 6vw;
+    float: left;
+    margin-right: 20px;
+}
+
+.content {
+    margin-left: 8vw;
+    margin-bottom: 4vw;
+}
+
+.spacing {
+    margin-bottom: 3rem !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+h5 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-size: 1.25rem;
+}
+
+.h6,
+h5 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.h6 {
+    font-size: 1rem;
+}
+
+.text-primary {
+    color: #ffd131 !important;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 2rem;
+}
+
+.grid-large,
+.grid-medium {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+    .grid-medium {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .grid-large {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .mb-lg-0 {
+        margin-bottom: 0 !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .mb-md-0 {
+        margin-bottom: 0 !important;
+    }
+}
+
+article {
+    display: block;
+}
+
+.portfolio-h1 {
+    font-size: 34px;
+    display: contents;
+}
+
+.wave-emoji {
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-name: wave;
+    display: inline-block;
+    transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(-10deg);
+    }
+
+    20% {
+        transform: rotate(12deg);
+    }
+
+    30% {
+        transform: rotate(-10deg);
+    }
+
+    40% {
+        transform: rotate(9deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+img.hand {
+    font-size: 50px !Important;
+}
+
+img.author-avatar {
+    /* max-width: 250px; */
+    /* max-width: 25%; */
+    max-width: 100%;
+    margin-left: 0px !important;
+    border-radius: 50%;
+    margin-right: 40px;
+    float: left;
+    background: #ffd131 !important;
+    padding: 1px;
+}
+
+.logo-social {
+    float: left;
+    width: 25%;
+    display: grid;
+    margin-right: 40px !important;
+}
+
+.lovee {
+    color: #f23f3f !important;
+    font-size: 21px;
+    display: inline;
+}
+
+.welcomee {
+    margin-top: 7vw;
+    margin-bottom: 5vw;
+    width: 100%;
+}
+
+.welcomee p {
+    margin: 2vw 0vw;
+}
+
+h1 {
+    margin: .67em 0;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#greeting {
+    font-size: 34px;
+}
+
+#greeting b {
+    font-weight: 700;
+    font-size: 34px;
+}
+
+a {
+    background-color: transparent;
+    color: #858585;
+    text-decoration: none;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+a.read-more.portfolio-a,
+a.read-more.portfolio-a {
+    color: #ffd130 !important;
+}
+
+h3.h5.portfolio-h3 a {
+    color: #0e0e0e;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 1;
+}
+
+
+.text-right {
+    text-align: right;
+    float: right;
+    overflow: hidden;
+}
+
+.description {
+    font-size: 11pt;
+    margin-top: 1.7vw;
+}
+
+.description b {
+    font-size: 11pt;
+}
+
+
+.skills p {
+    margin: 0vw;
+}
+
+.skill-container {
+    width: 100%;
+    height: 7px;
+    background-color: #ddd;
+    margin-bottom: 1.5vw;
+}
+
+.skills .skill-type {
+    font-weight: bold;
+    margin-bottom: 1.5vw;
+}
+
+.skill-bar {
+    height: 7px;
+    background-color: #ffd131;
+}
+
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.card-style2 {
+    position: relative;
+    display: flex;
+    transition: all 300ms ease;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    padding: 0;
+    height: 100%;
+}
+
+.card-img {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    border-bottom-right-radius: calc(.25rem - 1px);
+    border-bottom-left-radius: calc(.25rem - 1px);
+}
+
+.card-style2 .card-img {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    overflow: hidden;
+    border-radius: 0.25rem;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.card-style2 .card-body {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 2rem;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.rounded-top {
+    border-top-left-radius: .25rem !important;
+    border-top-right-radius: .25rem !important;
+}
+
+.card-style2 .card-img img {
+    transition: all 0.3s linear 0s;
+}
+
+footer.footer {
+    text-align: center !important;
+}
+
+.card-img img {
+    width: 100% !important;
+}
+
+p#skill-description {
+    margin-bottom: 25px;
+}
+
+div#project-item {
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 991px) and (min-width: 400px) {
+
+    .whhy-div h2 {
+        font-size: 3vh;
+    }
+
+    .giff {
+        width: 100% !important;
+    }
+
+    .whhy-div p {
+        width: 100% !important;
+    }
+
+    .whhy-div {
+        width: 85% !important;
+    }
+
+    img.alertt {
+        width: 160px;
+    }
+
+    a.social-icon {
+        margin-left: 0px !important;
+        margin-right: 10px;
+    }
+
+    .logo-social {
+        width: 100%;
+    }
+
+    img.author-avatar {
+        max-width: 50% !important;
+    }
+
+    .footer-social-icons {
+        text-align: left !important;
+    }
+
+    .footer-social-icons {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    ul.social-icons {
+        list-style-type: none;
+        display: contents;
+    }
+
+    .section.hire-me center {
+        margin-bottom: -25px;
+    }
+
+    .timeline-item {
+        margin-bottom: 50px !important;
+    }
+
+    .hire-item {
+        width: 100% !important;
+        margin-bottom: -55px;
+    }
+
+    footer.footer {
+        margin-bottom: 25px;
+    }
+
+    .logo {
+        height: 14vw;
+        width: 14vw;
+    }
+
+    p.description.portfolio-p {
+        line-height: 1.6;
+    }
+
+    .section {
+        margin: 12vw 0px;
+    }
+
+    .section.skills .half {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    #greeting {
+        width: 100% !important;
+        display: inline-block !important;
+    }
+
+    .half {
+        width: 100% !important;
+    }
+
+}
+
+.section.timeline h2,
+.section.skills h2 {
+    margin-bottom: 35px;
+}
+
+img.logo.portfolio-img {
+    border-radius: 50%;
+    padding: 1px;
+    background: #eeeeee;
+}
+
+p.display-30.portfolio-p {
+    color: #858585;
+}
+
+a:hover {
+    color: #ffd130 !important;
+}
+
+.aa {
+    float: right;
+    width: 10%;
+    height: 3px;
+    background-color: #f00;
+    -webkit-background-size: 100% 5px;
+    -moz-background-size: 100% 5px;
+    background-size: 100% 10px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.welcomee.portfolio {
+    background-image: url(images/border.png);
+    background-repeat: no-repeat;
+    background-position: right 0px top 0px;
+    background-size: 220px 92px;
+}
+
+.timeline-item {
+    margin-bottom: 90px;
+}
+
+.section.timeline {
+    margin-bottom: 120px !important;
+}
+
+span.text-right.timelnie-date b,
+.content b {
+    font-size: 18px;
+}
+
+p.portfolio-p {
+    display: -webkit-box;
+}
+
+.skill-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hire-item {
+    width: 33%;
+    padding: 40px;
+    text-align: center;
+    display: inline-grid;
+}
+
+.hire-item b {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 991px) and (min-width: 705px) {
+    .timeline-item {
+        margin-bottom: 115px !important;
+    }
+
+    .hire-item {
+        width: 100% !important;
+    }
+}
+
+a.social-icon {
+    margin-left: 0px !important;
+    margin-right: 5px;
+}
+
+.footer-social-icons {
+    text-align: left;
+}
+
+.social-icons li {
+    display: inline;
+}
+
+img.social-item {
+    width: 40px;
+}
+
+img.alertt {
+    width: 180px;
+    position: fixed;
+    left: 0px;
+    margin-right: 40px;
+    z-index: 999;
+    animation-name: alertt;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    cursor: pointer;
+}
+
+@keyframes alertt {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.whhy {
+    overflow-y: auto;
+    background: #333333de !important;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    /* display: flex; */
+    justify-content: center;
+    align-items: normal;
+    display: none;
+}
+
+.whhy-div {
+    height: 50%;
+    width: 45%;
+    margin: 0 auto !important;
+    text-align: center;
+    padding: 25px;
+    background: #fff;
+    display: inline-table;
+    margin-top: 2vw !important;
+    border-radius: 25px;
+}
+
+.whhy-div img {
+    width: 80%;
+    border-radius: 25px;
+}
+
+.whhy-div p {
+    text-align: left;
+}
+
+img.close-item {
+    width: 22px;
+    float: right;
+    cursor: pointer;
+}
+
+.whhy-div h2 {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.whhy-div p {
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+img.stickerr {
+    width: 40px;
+}
+
+</style>
+
+</head>
+<body>
+
+    <img id="foo" class="alertt" src="images/message-recived.png">
+
+  <div id="why-alert" class="whhy">
+      <div class="whhy-div">
+
+          <a class="close-button" id="closee"> <img class="close-item" src="images/close.png"></a>
+
+          <h2>Why you should choose me? <img class="stickerr" src="images/shy.png"> </h2>
+          <img class="giff" src="images/like-pressing.gif">
+
+          <p> We must always develop our skills, whether the scientific or social one. I believe that by joining this Bootcamp many additional skills will be added to me, that will improve my programming knowledge which will help expand the career opportunities that I can apply for.
+
+              <br> <br>
+
+              By joining the team with other in the bootcamp, I will share all the knowledge I already have and help my colleagues to walk the same path that I will go, <b> as Yousef i see helping others be successful is one of the things that will make me see myself as a successful person. </b>
+
+              <br> <br>
+
+              From a very young age, I love challenges and correcting mistakes so this is one of the things that helped me become a programmer, and most importantly thing <b> I like pressing buttons!. </b>
+
+              <br> <br>
+              I can't wait to meet you all!
+          </p>
+
+
+      </div>
+  </div>
+
+  <div class="container">
+
+
+                <!-- Start Welcome section -->
+
+      <div class="welcomee portfolio">
+
+          <div class="logo-social">
+              <img class="author-avatar hoverZoomLink" src="images/myphoto.jpg" alt="">
+
+              <div class="footer-social-icons">
+                  <ul class="social-icons">
+                      <li><a target="_blank" href="https://twitter.com/YousefIsDone" class="social-icon"> <img class="social-item" src="images/twitter.png"></a></li>
+                      <li><a target="_blank" href="https://www.linkedin.com/in/y0usefmahdi/" class="social-icon"> <img class="social-item" src="images/linked.png"></a></li>
+                      <li><a target="_blank" href="https://github.com/Y0usefmahdi" class="social-icon"> <img class="social-item" src="images/github.png"></a></li>
+                      <li><a target="_blank" href="https://www.codewars.com/users/Y0usefmahdi" class="social-icon"> <img class="social-item" src="images/codewars.png"></a></li>
+                      <li><a target="_blank" href="https://www.freecodecamp.org/youseff" class="social-icon"> <img class="social-item" src="images/freecode.png"></a></li>
+
+                  </ul>
+              </div>
+
+          </div>
+
+
+          <div class="texxt">
+              <h1 id="greeting" class="portfolio-h1">
+                  Hi! <div class="portfolio-h1 wave-emoji">👋</div> I'm
+                  <b>
+                      Yousef Mahdi
+                  </b>
+                  , aspiring Web Developer and UI Designer.
+              </h1>
+              <p class="portfolio-p">
+
+
+                  <b>Independent Front End Developer</b> with 3 years of experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. Proficient in <b>HTML, CSS, JavaScript</b>, plus modern libraries and frameworks. <br> <br> Possessing considerable knowledge of the development of web applications and scripts using PHP programming language and MySQL & SQL Server databases Passionate about usability and possess working knowledge of Adobe Photoshop. Well-versed in all phases of the software development lifecycle, with a strong working knowledge of algorithms and data structures. <b>Very passionate about aesthetics and UI design.</b>
+                  <br>
+                  <br>
+                  <b>You can take a look at my resume</b>
+                  <a href="my-cv.pdf" target="_blank" class="portfolio-a">
+                      here.
+                  </a>
+
+
+              </p>
+
+
+          </div>
+
+
+      </div>
+
+                      <!-- End Welcome section -->
+
+
+
+            <!-- Start Timeline -->
+
+      <div class="section timeline">
+          <h2>
+              Timeline
+          </h2>
+
+          <div class="timeline-item">
+              <img class="logo portfolio-img" src="images/mostaql.png" align="left">
+              <div class="content">
+                  <span class="text-right timelnie-date">
+                      <b> 2020 - 2021 </b>
+                      <br>
+                  </span>
+                  <b>
+                      Mostaql.com
+                  </b>
+                  <br>
+                  Web Developer, Designer
+
+
+              </div>
+          </div>
+
+
+          <div class="timeline-item">
+              <img class="logo portfolio-img" src="images/barasi.jpg" align="left">
+              <div class="content">
+                  <span class="text-right timelnie-date">
+                      <b> 2019 - 2020 </b>
+                      <br>
+                  </span>
+                  <b>
+                      Barasi International Exchange
+                  </b>
+                  <br>
+                  Web Developer, Data Entry
+
+
+              </div>
+          </div>
+
+
+          <div class="timeline-item">
+              <img class="logo portfolio-img" src="images/gaza-uni.jpg" align="left">
+              <div class="content">
+                  <span class="text-right timelnie-date">
+                      <b> 2019 - 2021 </b>
+                      <br>
+                  </span>
+                  <b>
+                      Gaza University
+                  </b>
+                  <br>
+                  Associate's degree, Computer Programming
+
+
+              </div>
+          </div>
+
+
+      </div>
+
+            <!-- End Timeline -->
+
+
+            <!-- Start Skills -->
+
+      <div class="section skills">
+          <h2>
+              Skills
+          </h2>
+          <div class="row">
+              <div class="half">
+                  <p class="portfolio-p">
+                      Javascript
+                  </p>
+                  <div class="skill-container">
+                      <div class="skill-bar" style="width:80%">
+                      </div>
+                  </div>
+                  <p class="portfolio-p">
+                      HTML5
+                  </p>
+                  <div class="skill-container">
+                      <div class="skill-bar" style="width:100%">
+                      </div>
+                  </div>
+                  <p class="portfolio-p">
+                      CSS
+                  </p>
+                  <div class="skill-container">
+                      <div class="skill-bar" style="width:100%">
+                      </div>
+                  </div>
+                  <p class="portfolio-p">
+                      PHP
+                  </p>
+                  <div class="skill-container">
+                      <div class="skill-bar" style="width:80%">
+                      </div>
+                  </div>
+                  <p class="portfolio-p">
+                      XML
+                  </p>
+                  <div class="skill-container">
+                      <div class="skill-bar" style="width:70%">
+                      </div>
+                  </div>
+                  <p class="portfolio-p">
+                      Bootstrap
+                  </p>
+                  <div class="skill-container">
+                      <div class="skill-bar" style="width:90%">
+                      </div>
+                  </div>
+                  <p class="portfolio-p">
+                      WordPress
+                  </p>
+                  <div class="skill-container">
+                      <div class="skill-bar" style="width:80%">
+                      </div>
+                  </div>
+
+                  <p class="portfolio-p">
+                      Java
+                  </p>
+                  <div class="skill-container">
+                      <div class="skill-bar" style="width:60%">
+                      </div>
+                  </div>
+
+              </div>
+              <div class="half">
+                  <p class="portfolio-p">
+                      Git
+                  </p>
+                  <div class="skill-container">
+                      <div class="skill-bar" style="width:80%">
+                      </div>
+                  </div>
+                  <p class="portfolio-p">
+                      SQL
+                  </p>
+                  <div class="skill-container">
+                      <div class="skill-bar" style="width:90%">
+                      </div>
+                  </div>
+                  <p class="portfolio-p">
+                      MS Office Suite
+                  </p>
+                  <div class="skill-container">
+                      <div class="skill-bar" style="width:100%">
+                      </div>
+                  </div>
+                  <p class="portfolio-p">
+                      Dreamweaver
+                  </p>
+                  <div class="skill-container">
+                      <div class="skill-bar" style="width:60%">
+                      </div>
+                  </div>
+                  <p class="portfolio-p">
+                      Photoshop
+                  </p>
+                  <div class="skill-container">
+                      <div class="skill-bar" style="width:90%">
+                      </div>
+                  </div>
+                  <p class="portfolio-p">
+                      Windows
+                  </p>
+                  <div class="skill-container">
+                      <div class="skill-bar" style="width:90%">
+                      </div>
+                  </div>
+                  <p class="portfolio-p">
+                      Macintosh OS
+                  </p>
+                  <div class="skill-container">
+                      <div class="skill-bar" style="width:100%">
+                      </div>
+                  </div>
+
+                  <p class="portfolio-p">
+                      Linux
+                  </p>
+                  <div class="skill-container">
+                      <div class="skill-bar" style="width:70%">
+                      </div>
+                  </div>
+
+
+              </div>
+          </div>
+      </div>
+
+      <!-- End Skills -->
+
+
+            <!-- Start My Project -->
+
+      <div class="section projects">
+
+          <div class="spacing">
+              <h2>
+                  My Project
+              </h2>
+          </div>
+          <div class="row">
+              <div id="project-item" class="grid-large grid-medium spacing-2">
+                  <article class="card card-style2 portfolio-article">
+                      <div class="card-img">
+                          <img class="rounded-top portfolio-img" src="images/kfca.png" alt="...">
+                      </div>
+                      <div class="card-body">
+                          <h3 class="h5 portfolio-h3">
+                              <a href="#" class="portfolio-a">
+                                  KFCA &#8213; questionnaire page to know the opinions of customers
+                              </a>
+                          </h3>
+                          <p class="display-30 portfolio-p">
+                              A questionnaire (survey form) site for the King Fahd Causeway Authority, the site included a main interface + an interface for the questionnaire, and also included a control panel for the administration that allows them to manage questionnaires and see the statistics submitted by users.
+                              <br><br>
+                              The site was programmed in PHP, HTML + CSS + Javascript, and the database used is Mysql.
+
+                          </p>
+
+                      </div>
+                  </article>
+              </div>
+              <div id="project-item" class="grid-large grid-medium spacing-2">
+                  <article class="card card-style2 portfolio-article">
+                      <div class="card-img">
+                          <img class="rounded-top portfolio-img" src="images/mlobby.png" alt="...">
+                      </div>
+                      <div class="card-body">
+                          <h3 class="h5 portfolio-h3">
+                              <a href="#" class="portfolio-a">
+                                  M-Lobby &#8213; social media celebrities database
+                              </a>
+                          </h3>
+                          <p class="display-30 portfolio-p">
+                              A website contains a database of famous social media celebrities accounts (Snapchat - Twitter - Instagram - Facebook, etc.).
+                              <br><br>
+                              The site has a simple and smooth UI, compatible with all phones and browsers, and contains a login system for members. The site also contains an advanced control panel for the site owner that contains all the powers of managing members and celebrities.
+                              <br><br>
+                              The site was programmed in PHP, HTML + CSS + Javascript, and the database used is Mysql.
+                          </p>
+
+                      </div>
+                  </article>
+              </div>
+              <div id="project-item" class="grid-large grid-medium spacing-2">
+                  <article class="card card-style2 portfolio-article">
+                      <div class="card-img">
+                          <img class="rounded-top portfolio-img" src="images/twitter-clone.png" alt="...">
+                      </div>
+                      <div class="card-body">
+                          <h3 class="h5 portfolio-h3">
+                              <a href="#" class="portfolio-a">
+                                  Twitter clone
+                              </a>
+                          </h3>
+                          <p class="display-30 portfolio-p">
+                              A modern and lighter version of Twitter, you can add new tweets and you can retweet, and you can change the background color of the tweet when you hit the like button, this project was requested as a requirement to apply for a summer camp for Gaza sky geeks.
+
+                              <br><br>
+                              The site was programmed in HTML + CSS + Javascript.
+                          </p>
+                      </div>
+                  </article>
+              </div>
+
+
+          </div>
+
+      </div>
+
+            <!-- End My project -->
+
+
+            <!-- Start Hire Me -->
+
+      <div class="section hire-me">
+          <center>
+              <h2>
+                  <div class="portfolio-h1 wave-emoji">👋</div> HIRE ME
+              </h2>
+          </center>
+
+
+          <div class="hire-item">
+              <b>EMAIL:</b>
+              <a href="mailto:mryomahdi@gmail.com">mryomahdi@gmail.com</a>
+          </div>
+
+          <div class="hire-item">
+              <b>Address:</b>
+              <a href="https://www.google.com/maps/search/Mahdi+Hospital+%E2%80%95+Al+Naser+St.+Gaza,+PS.">Mahdi Hospital &#8213; Al Naser St. <br> Gaza, PS. </a>
+
+          </div>
+
+
+          <div class="hire-item">
+              <b>Phone:</b>
+              <a href="tel:972595400474">+972595400474</a>
+          </div>
+
+      </div>
+
+            <!-- End Hire me -->
+
+
+      <!-- Start Footer -->
+
+      <footer class="footer">Copyright © 2022<a class="footer_item" href="#"> Yousef Mahdi </a> <span class="footer_item"> &#8213; All rights reserved</span><br>Made with <div class="lovee"> &#9829;</div> by Yousef Mahdi</footer>
+
+      <!-- End Footer -->
+
+  </div>
+
+
+  <script>
+      document.getElementById('foo').addEventListener('click', function(e) {
+          document.getElementById('why-alert').style.display = 'flex';
+      });
+
+      document.getElementById('closee').addEventListener('click', function(e) {
+          document.getElementById('why-alert').style.display = 'none';
+      });
+  </script>
+
+</body>
+</html>
